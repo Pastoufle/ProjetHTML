@@ -158,11 +158,32 @@ body {
 
 /* Partie CSS Romain*/
 
+.romain-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+.romain-main {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
 
+.romain-header {
+    padding: 20px;
+}
 
-
-
+.romain-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
