@@ -1,39 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Partie CSS Théo */
+
+
+body-theo {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #008080;
+.head-theo {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #0066cc;
+.titre-theo {
+    font-size: 24px;
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #004080;
+.nom-theo {
+    font-size: 32px;
 }
 
+.recherche-theo {
+    font-style: italic;
+}
 
-/* Partie CSS Théo */
+.corp-theo {
+    padding: 20px;
+}
 
+.colomn1-theo {
+    float: left;
+    width: 50%;
+}
 
+.profile-theo {
+    margin-bottom: 20px;
+}
+
+.titre-head-theo {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.profile-body-theo {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a-theo {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a-theo:hover {
+    text-decoration: underline;
+}
 
 
 
