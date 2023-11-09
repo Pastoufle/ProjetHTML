@@ -87,6 +87,66 @@ a-theo:hover {
 
 /* Partie CSS Tom*/
 
+/* CSS pour la page de Tom */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tom-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* En-tête */
+.tom-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tom-title h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.tom-title p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+/* Sections */
+.tom-bio, .tom-experience, .tom-education {
+    margin: 40px 0;
+}
+
+.tom-bio h2, .tom-experience h2, .tom-education h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.tom-bio p, .tom-experience p, .tom-education p {
+    line-height: 1.6;
+}
+
+/* Pied de page */
+.tom-footer {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.tom-contact h2 {
+    color: #3498db;
+}
+
+.tom-contact p {
+    font-size: 1.2em;
+}
 
 
 
