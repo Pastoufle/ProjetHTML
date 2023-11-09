@@ -76,7 +76,10 @@ a-theo:hover {
 
 /* Partie CSS Thibault*/ 
 
-
+.tibo-header {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
 
 
 
@@ -98,6 +101,28 @@ body {
 .tom-container {
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.tom-background-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px; /* Ajuste la largeur selon tes besoins */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tom-left-image {
+    left: 0;
+    background-image: url('lien_vers_image_gauche.jpg'); /* Remplace par le lien de ton image */
+}
+
+.tom-right-image {
+    right: 0;
+    background-image: url('lien_vers_image_droite.jpg'); /* Remplace par le lien de ton image */
 }
 
 /* En-tête */
@@ -106,6 +131,8 @@ body {
     color: #fff;
     text-align: center;
     padding: 50px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .tom-title h1 {
@@ -121,6 +148,12 @@ body {
 /* Sections */
 .tom-bio, .tom-experience, .tom-education {
     margin: 40px 0;
+    position: relative;
+    z-index: 2;
+    background-color: #fff; /* Ajoute un fond blanc pour couvrir les images */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .tom-bio h2, .tom-experience h2, .tom-education h2 {
@@ -138,6 +171,8 @@ body {
     background-color: #ecf0f1;
     padding: 40px 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .tom-contact h2 {
@@ -147,7 +182,6 @@ body {
 .tom-contact p {
     font-size: 1.2em;
 }
-
 
 
 
