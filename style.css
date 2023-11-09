@@ -76,7 +76,10 @@ a-theo:hover {
 
 /* Partie CSS Thibault*/ 
 
-
+.tibo-header {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
 
 
 
