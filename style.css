@@ -96,100 +96,97 @@ a-theo:hover {
 
 /* Partie CSS Tom*/
 
-/* CSS pour la page de Tom */
-
-/* CSS pour la page de Tom */
-
-body {
-    font-family: 'Arial', sans-serif;
+/* Reset des marges et des paddings par défaut */
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 
-.tom-container {
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-}
-
-.tom-background-image {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: auto;
-}
-
-.tom-left-image {
-    left: 0;
-}
-
-.tom-right-image {
-    right: 0;
-}
-
-/* En-tête */
-.tom-header {
-    background-color: #3498db;
+/* Style du fond d'écran en gris foncé */
+body {
+    background-color:black ;
     color: #fff;
+}
+
+/* Style du titre en haut au centre de la page */
+.tom-header {
     text-align: center;
-    padding: 50px 0;
-    position: relative;
-    z-index: 1;
-}
-
-.tom-title h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-.tom-title p {
-    font-size: 1.5em;
-    margin: 10px 0 0;
-}
-
-/* Sections */
-.tom-bio, .tom-experience, .tom-education {
-    margin: 40px 0;
-    position: relative;
-    z-index: 2;
-    background-color: #fff; /* Ajoute un fond blanc pour couvrir les images */
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #005c6f ;
 }
 
-.tom-bio h2, .tom-experience h2, .tom-education h2 {
-    color: #3498db;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
+.tom-header h1 {
+    margin: 0;
+    color:whitesmoke;
 }
 
-.tom-bio p, .tom-experience p, .tom-education p {
-    line-height: 1.6;
+/* Style du conteneur principal */
+.tom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black ;
+    padding: 20px;
+    margin: 20px auto; /* Centre le conteneur */
+    border-radius: 10px; /* Ajoute une bordure arrondie au conteneur principal */
 }
 
-/* Pied de page */
-.tom-footer {
-    background-color: #ecf0f1;
-    padding: 40px 0;
+/* Style du bloc de gauche et de droite */
+.tom-left-rectangle, .tom-right-rectangle {
+    flex: 1;
+}
+
+.tom-left-rectangle img, .tom-right-rectangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour s'assurer que l'image conserve ses proportions */
+    border-radius: 10px; /* Ajoute une bordure arrondie aux images */
+}
+
+
+/* Style du bloc de texte */
+.tom-center-section {
+    flex: 2;
+    padding: 20px;
     text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
-.tom-contact h2 {
-    color: #3498db;
+/* Style des éléments textuels */
+
+
+/* Style des titres */
+.tom-center-section h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #005c6f;
 }
 
-.tom-contact p {
-    font-size: 1.2em;
+/* Style de la liste */
+.tom-center-section ul {
+    list-style-type: none;
 }
 
+.tom-center-section ul li {
+    margin-bottom: 8px;
+}
 
+/* Style du lien de contact */
+.tom-center-section p:last-child {
+    font-weight: bold;
+    margin-top: 20px;
+}
 
+/* Style des sections distinctes du bloc de texte */
+.tom-cv-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666; /* Ajoute une bordure entre les sections */
+    padding-bottom: 20px;
+}
 
-
+/* Supprime la bordure de la dernière section pour éviter le double trait */
+.tom-cv-section:last-child {
+    border-bottom: none;
+}
 
 
 
