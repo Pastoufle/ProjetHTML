@@ -1,4 +1,18 @@
 /* Partie CSS Théo */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px 40px 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 
 
 body-theo {
@@ -242,10 +256,14 @@ body {
 
 .alex-main-bloc1{
     height: 800px;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
     background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.alex-main-bloc1-image{
+
 }
 .alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
     font-size: 60px;
