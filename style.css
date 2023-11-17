@@ -116,6 +116,7 @@ body {
     top: 0;
     bottom: 0;
     width: 50px; /* Ajuste la largeur selon tes besoins */
+    height: 100%; /* Ajout de cette ligne pour définir la hauteur */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
