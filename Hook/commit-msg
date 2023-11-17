@@ -1,11 +1,2 @@
-#!/bin/bash
-commit_msg=$1
-echo "le msg est : $commit_msg"
-# Vérifie si le message de commit se termine par 'Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo'
-if [[ "$commit_msg" == *"Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo" ]]; then
-    echo "Le message de commit doit se terminer par un point d'exclamation (!). Commit rejeté."
-    exit 1  # Exit with failure (commit disallowed)
-else
-    echo "Commit autorisé."
-    exit 0  # Exit with success (commit allowed)
-fi
+# Ajouter du texte à la fin du message de commit en une seule ligne
+git commit -m "$(git log -1 --pretty=%B) Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo"
