@@ -1,2 +1,11 @@
-# Ajouter du texte à la fin du message de commit en une seule ligne
-git commit -m "$(git log -1 --pretty=%B) Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo"
+# Définir le message initial
+commit_message="Votre message de commit existant ici."
+
+# Ajouter du texte supplémentaire
+additional_text="Ajout de texte supplémentaire."
+
+# Concaténer les messages
+final_commit_message="$commit_message $additional_text"
+
+# Effectuer le commit avec le message final
+git commit -m "$final_commit_message"
