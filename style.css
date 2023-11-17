@@ -233,6 +233,13 @@ body {
     height: 100px;
     
 }
+
+.alex-main{
+    height: 1000px;
+    background-color: #3498db;
+}
+
+
 .alex-footer{
     height: 200px;
 }
