@@ -238,7 +238,7 @@ body {
     background-color:aliceblue;
 }
 
-.alex-main-bloc1, .alex-main-bloc2, .alex-main-bloc3{
+.alex-main-bloc1{
     display: flex;
     justify-content: center;
     height: 800px;
