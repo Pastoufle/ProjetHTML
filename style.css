@@ -238,7 +238,9 @@ body {
     background-color: #3498db;
 }
 
-
+.alex-main-bloc1, .alex-main-bloc2, .alex-main-bloc3{
+    height: 800px;
+}
 .alex-footer{
     height: 200px;
 }
