@@ -18,3 +18,6 @@ Tibo
 **Attention a l'organisation, chacun se garde un emplecement, n'aller pas mélanger les CSS de tous le monde dans tous les sens**
 
 **Ne modifier pas le CSS des autres intentionnelement**
+
+# REGLE COMMIT A RESPECTER 
+**Mettre le message "Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo" à la fin de chaque commit**
