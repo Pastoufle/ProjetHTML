@@ -239,8 +239,11 @@ body {
 }
 
 .alex-main-bloc1, .alex-main-bloc2, .alex-main-bloc3{
+    display: flex;
+    justify-content: center;
     height: 800px;
 }
 .alex-footer{
     height: 200px;
+    background-color: #333;
 }
