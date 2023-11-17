@@ -98,6 +98,8 @@ a-theo:hover {
 
 /* CSS pour la page de Tom */
 
+/* CSS pour la page de Tom */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -114,22 +116,16 @@ body {
 .tom-background-image {
     position: absolute;
     top: 0;
-    bottom: 0;
-    width: 50px; /* Ajuste la largeur selon tes besoins */
-    height: 100%; /* Ajout de cette ligne pour définir la hauteur */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
 }
 
 .tom-left-image {
     left: 0;
-    background-image: url('photo/tom_image1.jpg'); /* Remplace par le lien de ton image */
 }
 
 .tom-right-image {
     right: 0;
-    background-image: url('photo/tom_image2.avif'); /* Remplace par le lien de ton image */
 }
 
 /* En-tête */
