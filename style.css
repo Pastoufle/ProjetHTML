@@ -225,15 +225,47 @@ body {
 
 .alex-header{
     height: 100px;
-    
 }
-
+.alex-header-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
 .alex-main{
-    height: 1000px;
-    background-color: #3498db;
+    background-color:aliceblue;
 }
 
+.alex-main-bloc1{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightgreen;
+}
+.alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
+    font-size: 60px;
+    color: white;
+}
+
+.alex-main-bloc2{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.alex-main-bloc3{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightseagreen;
+}
 
 .alex-footer{
     height: 200px;
+    background-color: #333;
 }
