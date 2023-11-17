@@ -1,5 +1,5 @@
 #!/bin/bash
-commit_msg=$(cat "$1")
+commit_msg=$1
 # Vérifie si le message de commit se termine par 'Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo'
 if [[ "$commit_msg" == *"Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo" ]]; then
     echo "Le message de commit doit se terminer par un point d'exclamation (!). Commit rejeté."
