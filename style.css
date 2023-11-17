@@ -123,12 +123,12 @@ body {
 
 .tom-left-image {
     left: 0;
-    background-image: url('lien_vers_image_gauche.jpg'); /* Remplace par le lien de ton image */
+    background-image: url('tom_image1.jpg'); /* Remplace par le lien de ton image */
 }
 
 .tom-right-image {
     right: 0;
-    background-image: url('lien_vers_image_droite.jpg'); /* Remplace par le lien de ton image */
+    background-image: url('tom_image2.avif'); /* Remplace par le lien de ton image */
 }
 
 /* En-tête */
