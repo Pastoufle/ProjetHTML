@@ -125,6 +125,13 @@ a-theo:hover {
     width: 100%;
 }
 
-
+@keyframes changeColor {
+    from {
+        background-color: #3498db; /* Couleur de fond initiale */
+    }
+    to {
+        background-color: #e74c3c; /* Nouvelle couleur de fond */
+    }
+}
 
 /* Partie CSS Alex*/  
