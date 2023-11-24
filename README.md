@@ -20,4 +20,8 @@ Tibo
 **Ne modifier pas le CSS des autres intentionnelement**
 
 # REGLE COMMIT A RESPECTER
-**Pour les commit message, il faut effectuer la commande ```git config core.hooksPath Hook``` dans le git bash ouvert depuis le dossier du projet.**
+**Pour les commit message:**
+1. ouvrir le dossier du projet dans votre explorateur de fichier
+2. ouvrir git bash 
+3. mettre la commande ```git config core.hooksPath Hook```
+4. Cela permettra d'activer les hook présent dans le dossier Hook du projet
