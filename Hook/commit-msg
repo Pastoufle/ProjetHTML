@@ -8,4 +8,5 @@ commit_message=$(cat "$commit_message_file")
 specific_message="Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo"  # Change this to your desired message
 
 # Append the specific message to the end of the commit message
+
 echo -e "\n$specific_message" >> "$commit_message_file"
