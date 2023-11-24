@@ -130,9 +130,10 @@ body, h1, h2, p, ul {
 }
 
 /* Style du fond d'écran en gris foncé */
-body {
+.tom-body {
     background-color:black ;
     color: #fff;
+    padding-top: 100px;
 }
 
 
@@ -254,6 +255,7 @@ body {
 }
 .alex-main{
     background-color:aliceblue;
+    padding-top: 100px;
 }
 
 .alex-main-bloc1{
