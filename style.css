@@ -20,6 +20,7 @@
     align-items: center; 
     height: 100px;
     padding: 60px 120px;
+    margin-bottom: 400px;
 }
 .footer-line-1{
     width:80%;
@@ -42,7 +43,7 @@
     align-items: center;
     border: 3px solid black;
     border-radius: 40px;
-    padding: 40px 20px;
+    padding: 40px 30px;
     box-shadow: 0px 10px 18px gray;
 }
 .logo{
@@ -57,7 +58,17 @@ a{
     font-size: 30px;
     font-weight: 700;
 }
-
+.main{
+    padding-top: 100px;
+}
+.index-body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
 body-theo{
     font-family: 'Roboto', sans-serif;
     margin: 0;
