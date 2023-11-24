@@ -115,6 +115,7 @@ a-theo:hover {
 
 .tibo-nav {
     font-size: 18px;
+    padding-top: 20%;
 }
 
 
@@ -130,9 +131,10 @@ body, h1, h2, p, ul {
 }
 
 /* Style du fond d'écran en gris foncé */
-body {
+.tom-body {
     background-color:black ;
     color: #fff;
+    padding-top: 100px;
 }
 
 
@@ -210,7 +212,7 @@ body {
 
 .romain-body {
     font-family: 'Arial', sans-serif;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm0_-PhRWe5v0THAbr0kFlIQSx9gpz5D4Hg&usqp=CAU")
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm0_-PhRWe5v0THAbr0kFlIQSx9gpz5D4Hg&usqp=CAU");
     background-repeat: no-repeat;
     background-size:1400px ;
     margin: 0;
@@ -254,6 +256,7 @@ body {
 }
 .alex-main{
     background-color:aliceblue;
+    padding-top: 100px;
 }
 
 .alex-main-bloc1{
