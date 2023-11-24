@@ -18,3 +18,6 @@ Tibo
 **Attention a l'organisation, chacun se garde un emplecement, n'aller pas mélanger les CSS de tous le monde dans tous les sens**
 
 **Ne modifier pas le CSS des autres intentionnelement**
+
+# REGLE COMMIT A RESPECTER
+**Pour les commit message, il faut effectuer la commande ```git config core.hooksPath Hook``` dans le git bash ouvert depuis le dossier du projet.**
