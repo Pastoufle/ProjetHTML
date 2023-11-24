@@ -14,6 +14,13 @@
     box-shadow: 0px 2px 30px gray;
     z-index: 1000;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100px;
+    padding: 0px 40px;
+}
 .logo{
     height: 60px;
 }
@@ -24,14 +31,11 @@ a{
     font-weight: 700;
 }
 
-body{
-    padding-top: 200px;
-}
-
 body-theo {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
 }
 
 .head-theo {
@@ -110,11 +114,12 @@ a-theo:hover {
 .tibo-header {
     font-size: 30px;
     text-align: center;
-    background-color:darkcyan;
+  
 }
 
 .tibo-nav {
     font-size: 18px;
+    padding-top: 8%;
 }
 
 
@@ -130,22 +135,12 @@ body, h1, h2, p, ul {
 }
 
 /* Style du fond d'écran en gris foncé */
-body {
+.tom-body {
     background-color:black ;
     color: #fff;
+    padding-top: 100px;
 }
 
-/* Style du titre en haut au centre de la page */
-.tom-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #005c6f ;
-}
-
-.tom-header h1 {
-    margin: 0;
-    color:whitesmoke;
-}
 
 /* Style du conteneur principal */
 .tom-container {
@@ -165,7 +160,7 @@ body {
 
 .tom-left-rectangle img, .tom-right-rectangle img {
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover; /* Pour s'assurer que l'image conserve ses proportions */
     border-radius: 10px; /* Ajoute une bordure arrondie aux images */
 }
@@ -182,7 +177,7 @@ body {
 
 
 /* Style des titres */
-.tom-center-section h2 {
+.tom-center-section h2, h1, h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #005c6f;
@@ -219,50 +214,98 @@ body {
 
 /* Partie CSS Romain*/
 
-
-.romain-body {
-    font-family: 'Arial', sans-serif;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 600px;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    text-align: center;
-}
-
-.romain-intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black ;
+.romain-test{
+    background-color: #23272a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    max-width: 800px;
     padding: 20px;
-    margin: 20px auto; /* Centre le conteneur */
-    border-radius: 10px;
-}
-.romain-main {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+    width: 95%;
 }
 
-.romain-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+h1 { text-decoration: underline }
+
+h1.titre {
+    font-size:60px; text-align: center ;
+    padding-left: 100px;
+    font-family: comic sans MS, "Arial black", calibri
+}
+
+.romain-image{
+    margin-top: -10px;
+  }
+
+.romain-body{
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.romain-wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
     position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    z-index: -1;
 }
 
-@keyframes changeColor {
-    from {
-        background-color: #3498db; /* Couleur de fond initiale */
+.romain-wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.romain-wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
     }
-    to {
-        background-color: #e74c3c; /* Nouvelle couleur de fond */
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
     }
 }
+
 
 /* Partie CSS Alex*/  
 
@@ -276,6 +319,7 @@ body {
 }
 .alex-main{
     background-color:aliceblue;
+    padding-top: 100px;
 }
 
 .alex-main-bloc1{
@@ -286,9 +330,7 @@ body {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
-.alex-main-bloc1-image{
 
-}
 .alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
     font-size: 60px;
     color: white;

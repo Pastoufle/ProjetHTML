@@ -1,11 +1,11 @@
-# Définir le message initial
-commit_message="Votre message de commit existant ici."
+#!/bin/bash
 
-# Ajouter du texte supplémentaire
-additional_text="Ajout de texte supplémentaire."
+# Get the current commit message
+commit_message_file=$1
+commit_message=$(cat "$commit_message_file")
 
-# Concaténer les messages
-final_commit_message="$commit_message $additional_text"
+# Define the specific message to be added
+specific_message="Nous somme l’équipe 1, composé de Tom, Alex, Romain, Thibault et Théo"  # Change this to your desired message
 
-# Effectuer le commit avec le message final
-git commit -m "$final_commit_message"
+# Append the specific message to the end of the commit message
+echo -e "\n$specific_message" >> "$commit_message_file"
