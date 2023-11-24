@@ -1,5 +1,32 @@
 /* Partie CSS Théo */
+#header{
+    position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+    box-shadow: 0px 2px 30px gray;
+    z-index: 1000;
+}
+.logo{
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
 
+body{
+    padding-top: 200px;
+}
 
 body-theo {
     font-family: 'Roboto', sans-serif;
@@ -228,9 +255,7 @@ body {
 
 /* Partie CSS Alex*/  
 
-.alex-header{
-    height: 100px;
-}
+
 .alex-header-text{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -244,10 +269,14 @@ body {
 
 .alex-main-bloc1{
     height: 800px;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
     background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.alex-main-bloc1-image{
+
 }
 .alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
     font-size: 60px;
