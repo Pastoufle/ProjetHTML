@@ -24,6 +24,9 @@
 .logo{
     height: 60px;
 }
+body{
+    padding-top: 100px;
+}
 a{
     text-decoration: none;
     color: black;
@@ -31,7 +34,7 @@ a{
     font-weight: 700;
 }
 
-body-theo {
+body-theo{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
