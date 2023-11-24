@@ -153,7 +153,7 @@ body, h1, h2, p, ul {
 
 .tom-left-rectangle img, .tom-right-rectangle img {
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover; /* Pour s'assurer que l'image conserve ses proportions */
     border-radius: 10px; /* Ajoute une bordure arrondie aux images */
 }
