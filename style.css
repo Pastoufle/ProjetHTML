@@ -76,10 +76,19 @@ a-theo:hover {
 
 /* Partie CSS Thibault*/ 
 
+.tibo-body {
+    background-color: bisque;
+    font-family:monospace;
+}
+.tibo-header {
+    font-size: 30px;
+    text-align: center;
+    background-color:darkcyan;
+}
 
-
-
-
+.tibo-nav {
+    font-size: 18px;
+}
 
 
 
@@ -87,12 +96,97 @@ a-theo:hover {
 
 /* Partie CSS Tom*/
 
+/* Reset des marges et des paddings par défaut */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du fond d'écran en gris foncé */
+body {
+    background-color:black ;
+    color: #fff;
+}
+
+/* Style du titre en haut au centre de la page */
+.tom-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #005c6f ;
+}
+
+.tom-header h1 {
+    margin: 0;
+    color:whitesmoke;
+}
+
+/* Style du conteneur principal */
+.tom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black ;
+    padding: 20px;
+    margin: 20px auto; /* Centre le conteneur */
+    border-radius: 10px; /* Ajoute une bordure arrondie au conteneur principal */
+}
+
+/* Style du bloc de gauche et de droite */
+.tom-left-rectangle, .tom-right-rectangle {
+    flex: 1;
+}
+
+.tom-left-rectangle img, .tom-right-rectangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour s'assurer que l'image conserve ses proportions */
+    border-radius: 10px; /* Ajoute une bordure arrondie aux images */
+}
 
 
+/* Style du bloc de texte */
+.tom-center-section {
+    flex: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style des éléments textuels */
 
 
+/* Style des titres */
+.tom-center-section h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #005c6f;
+}
 
+/* Style de la liste */
+.tom-center-section ul {
+    list-style-type: none;
+}
 
+.tom-center-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Style du lien de contact */
+.tom-center-section p:last-child {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style des sections distinctes du bloc de texte */
+.tom-cv-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666; /* Ajoute une bordure entre les sections */
+    padding-bottom: 20px;
+}
+
+/* Supprime la bordure de la dernière section pour éviter le double trait */
+.tom-cv-section:last-child {
+    border-bottom: none;
+}
 
 
 
@@ -135,3 +229,50 @@ a-theo:hover {
 }
 
 /* Partie CSS Alex*/  
+
+.alex-header{
+    height: 100px;
+}
+.alex-header-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.alex-main{
+    background-color:aliceblue;
+}
+
+.alex-main-bloc1{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightgreen;
+}
+.alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
+    font-size: 60px;
+    color: white;
+}
+
+.alex-main-bloc2{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.alex-main-bloc3{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.alex-footer{
+    height: 200px;
+    background-color: #333;
+}
