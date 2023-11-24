@@ -1,10 +1,92 @@
 /* Partie CSS Théo */
+#header{
+    position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+    box-shadow: 0px 2px 30px gray;
+    z-index: 1000;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100px;
+    padding: 60px 120px;
+    margin-bottom: 400px;
+}
+.footer-line-1{
+    width:80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-line-2{
+    width:50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 40px 30px;
+    box-shadow: 0px 10px 18px gray;
+    background-color: white;
+    color: black;
+}
+.logo{
+    height: 60px;
+}
+.image{
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main{
+    padding-top: 100px;
+}
+.index-body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
 
+.index-tibo-site {
+    text-align: center;
+}
 
-body-theo {
+.index-tibo-site-img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+body-theo{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
 }
 
 .head-theo {
@@ -76,13 +158,40 @@ a-theo:hover {
 
 /* Partie CSS Thibault*/ 
 
+.tibo-body {
+    background-color: bisque;
+    font-family:monospace;
+}
 .tibo-header {
     font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  
 }
 
+.tibo-nav {
+    font-size: 18px;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+.tibo-nav-href {
+    font-size: 18px;
+    color:blue;
+}
 
+.tibo-nav-h2 {
+    padding-top: 5%;
+}
+
+.tibo-img_forge {
+    height: 100px;
+    border-radius: 15px;
+}
+.tibo-nav-projet_OS {
+    padding-top: 1%;;
+}
 
 
 
@@ -90,103 +199,87 @@ a-theo:hover {
 
 /* Partie CSS Tom*/
 
-/* CSS pour la page de Tom */
-
-body {
-    font-family: 'Arial', sans-serif;
+/* Reset des marges et des paddings par défaut */
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 
-.tom-container {
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-}
-
-.tom-background-image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px; /* Ajuste la largeur selon tes besoins */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.tom-left-image {
-    left: 0;
-    background-image: url('lien_vers_image_gauche.jpg'); /* Remplace par le lien de ton image */
-}
-
-.tom-right-image {
-    right: 0;
-    background-image: url('lien_vers_image_droite.jpg'); /* Remplace par le lien de ton image */
-}
-
-/* En-tête */
-.tom-header {
-    background-color: #3498db;
+/* Style du fond d'écran en gris foncé */
+.tom-body {
+    background-color:black ;
     color: #fff;
-    text-align: center;
-    padding: 50px 0;
-    position: relative;
-    z-index: 1;
+    padding-top: 100px;
 }
 
-.tom-title h1 {
-    font-size: 3em;
-    margin: 0;
-}
 
-.tom-title p {
-    font-size: 1.5em;
-    margin: 10px 0 0;
-}
-
-/* Sections */
-.tom-bio, .tom-experience, .tom-education {
-    margin: 40px 0;
-    position: relative;
-    z-index: 2;
-    background-color: #fff; /* Ajoute un fond blanc pour couvrir les images */
+/* Style du conteneur principal */
+.tom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black ;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centre le conteneur */
+    border-radius: 10px; /* Ajoute une bordure arrondie au conteneur principal */
 }
 
-.tom-bio h2, .tom-experience h2, .tom-education h2 {
-    color: #3498db;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
+/* Style du bloc de gauche et de droite */
+.tom-left-rectangle, .tom-right-rectangle {
+    flex: 1;
 }
 
-.tom-bio p, .tom-experience p, .tom-education p {
-    line-height: 1.6;
+.tom-left-rectangle img, .tom-right-rectangle img {
+    width: 100%;
+    height: 120%;
+    object-fit: cover; /* Pour s'assurer que l'image conserve ses proportions */
+    border-radius: 10px; /* Ajoute une bordure arrondie aux images */
 }
 
-/* Pied de page */
-.tom-footer {
-    background-color: #ecf0f1;
-    padding: 40px 0;
+
+/* Style du bloc de texte */
+.tom-center-section {
+    flex: 2;
+    padding: 20px;
     text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
-.tom-contact h2 {
-    color: #3498db;
+/* Style des éléments textuels */
+
+
+/* Style des titres */
+.tom-center-section h2,.tom-center-section h1, .tom-center-section h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #005c6f;
 }
 
-.tom-contact p {
-    font-size: 1.2em;
+/* Style de la liste */
+.tom-center-section ul {
+    list-style-type: none;
 }
 
+.tom-center-section ul li {
+    margin-bottom: 8px;
+}
 
+/* Style du lien de contact */
+.tom-center-section p:last-child {
+    font-weight: bold;
+    margin-top: 20px;
+}
 
+/* Style des sections distinctes du bloc de texte */
+.tom-cv-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666; /* Ajoute une bordure entre les sections */
+    padding-bottom: 20px;
+}
 
-
+/* Supprime la bordure de la dernière section pour éviter le double trait */
+.tom-cv-section:last-child {
+    border-bottom: none;
+}
 
 
 
@@ -194,7 +287,9 @@ body {
 
 .romain-body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm0_-PhRWe5v0THAbr0kFlIQSx9gpz5D4Hg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:1400px ;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -206,10 +301,6 @@ body {
     padding: 1em;
 }
 
-.romain-header {
-    padding: 20px;
-}
-
 .romain-footer {
     background-color: #333;
     color: #fff;
@@ -219,6 +310,80 @@ body {
     width: 100%;
 }
 
-
+@keyframes changeColor {
+    from {
+        background-color: #3498db; /* Couleur de fond initiale */
+    }
+    to {
+        background-color: #e74c3c; /* Nouvelle couleur de fond */
+    }
+}
 
 /* Partie CSS Alex*/  
+
+
+.alex-header-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.alex-main{
+    background-color:aliceblue;
+    padding-top: 100px;
+}
+
+.alex-main-bloc1{
+    height: 800px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+}
+.alex-main-bloc1-para{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.alex-main-bloc1-text, .alex-main-bloc3-text{
+    font-size: 50px;
+    color: white;
+}
+.alex-main-bloc2-text{
+    color: blue;
+}
+.alex-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alex-git-paragraphe{
+    margin-top: 60px;
+    width: 60%;
+    text-align: center;
+    font-size: 23px;
+    font-size: 25px;
+}
+.alex-main-bloc2{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.alex-main-bloc3{
+    height: 800px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.alex-footer{
+    height: 200px;
+    background-color: #333;
+}
