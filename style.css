@@ -14,6 +14,13 @@
     box-shadow: 0px 2px 30px gray;
     z-index: 1000;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100px;
+    padding: 0px 40px;
+}
 .logo{
     height: 60px;
 }
@@ -264,9 +271,7 @@ body, h1, h2, p, ul {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
-.alex-main-bloc1-image{
 
-}
 .alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
     font-size: 60px;
     color: white;
