@@ -158,7 +158,10 @@ a-theo:hover {
 
 .tibo-nav {
     font-size: 18px;
-    padding-top: 8%;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .tibo-nav-href {
@@ -166,8 +169,15 @@ a-theo:hover {
     color:blue;
 }
 
+.tibo-nav-h2 {
+    padding-top: 5%;
+}
+
+.tibo-img_forge {
+    height: 100px;
+}
 .tibo-nav-projet_OS {
-    padding-top: 2%;;
+    padding-top: 1%;;
 }
 
 
