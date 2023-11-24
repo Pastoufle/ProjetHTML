@@ -171,7 +171,7 @@ body {
 
 
 /* Style des titres */
-.tom-center-section h2, h1 {
+.tom-center-section h2, h1, h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #005c6f;
