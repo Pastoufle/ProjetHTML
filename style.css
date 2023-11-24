@@ -16,16 +16,40 @@
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center; 
     height: 100px;
-    padding: 0px 40px;
+    padding: 60px 120px;
+}
+.footer-line-1{
+    width:80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-line-2{
+    width:50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 40px 20px;
+    box-shadow: 0px 10px 18px gray;
 }
 .logo{
     height: 60px;
 }
-body{
-    padding-top: 100px;
+.image{
+    height: 60px;
 }
 a{
     text-decoration: none;
