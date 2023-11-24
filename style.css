@@ -194,7 +194,9 @@ body {
 
 .romain-body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm0_-PhRWe5v0THAbr0kFlIQSx9gpz5D4Hg&usqp=CAU")
+    background-repeat: no-repeat;
+    background-size:1400px ;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -204,10 +206,6 @@ body {
     background-color: #333;
     color: #fff;
     padding: 1em;
-}
-
-.romain-header {
-    padding: 20px;
 }
 
 .romain-footer {
