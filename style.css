@@ -71,6 +71,17 @@ a{
     justify-content: center;
     height: 100px;
 }
+
+.index-tibo-site {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.index-tibo-site-img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 body-theo{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -176,6 +187,7 @@ a-theo:hover {
 
 .tibo-img_forge {
     height: 100px;
+    border-radius: 15px;
 }
 .tibo-nav-projet_OS {
     padding-top: 1%;;
