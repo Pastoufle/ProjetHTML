@@ -16,12 +16,42 @@
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center; 
     height: 100px;
-    padding: 0px 40px;
+    padding: 60px 120px;
+    margin-bottom: 400px;
+}
+.footer-line-1{
+    width:80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-line-2{
+    width:50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 40px 30px;
+    box-shadow: 0px 10px 18px gray;
+    background-color: white;
+    color: black;
 }
 .logo{
+    height: 60px;
+}
+.image{
     height: 60px;
 }
 a{
@@ -30,8 +60,28 @@ a{
     font-size: 30px;
     font-weight: 700;
 }
+.main{
+    padding-top: 100px;
+}
+.index-body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
 
-body-theo {
+.index-tibo-site {
+    text-align: center;
+}
+
+.index-tibo-site-img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+body-theo{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -119,7 +169,27 @@ a-theo:hover {
 
 .tibo-nav {
     font-size: 18px;
-    padding-top: 8%;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tibo-nav-href {
+    font-size: 18px;
+    color:blue;
+}
+
+.tibo-nav-h2 {
+    padding-top: 5%;
+}
+
+.tibo-img_forge {
+    height: 100px;
+    border-radius: 15px;
+}
+.tibo-nav-projet_OS {
+    padding-top: 1%;;
 }
 
 
@@ -177,7 +247,7 @@ body, h1, h2, p, ul {
 
 
 /* Style des titres */
-.tom-center-section h2, h1, h3 {
+.tom-center-section h2,.tom-center-section h1, .tom-center-section h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #005c6f;
@@ -217,7 +287,8 @@ body, h1, h2, p, ul {
 .romain-test{
     background-color: #23272a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px auto;
+    margin-top: 150px;
+    margin-left: 380px;
     max-width: 800px;
     padding: 20px;
     width: 95%;
@@ -325,17 +396,36 @@ h1.titre {
 .alex-main-bloc1{
     height: 800px;
     background-color: lightgreen;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
 }
-
-.alex-main-bloc1-text, .alex-main-bloc2-text, .alex-main-bloc3-text{
-    font-size: 60px;
+.alex-main-bloc1-para{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.alex-main-bloc1-text, .alex-main-bloc3-text{
+    font-size: 50px;
     color: white;
 }
-
+.alex-main-bloc2-text{
+    color: blue;
+}
+.alex-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alex-git-paragraphe{
+    margin-top: 60px;
+    width: 60%;
+    text-align: center;
+    font-size: 23px;
+    font-size: 30px;
+}
 .alex-main-bloc2{
     height: 800px;
     display: flex;
