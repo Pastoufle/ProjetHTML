@@ -82,73 +82,81 @@ a{
     margin-top: 10px;
 }
 
-body-theo{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    padding-top: 100px;
-}
 
-.head-theo {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
 
-.titre-theo {
-    font-size: 24px;
-    font-weight: bold;
-}
 
-.nom-theo {
-    font-size: 32px;
-}
-
-.recherche-theo {
-    font-style: italic;
-}
-
-.corp-theo {
-    padding: 20px;
-}
-
-.colomn1-theo {
-    float: left;
-    width: 50%;
-}
-
-.profile-theo {
-    margin-bottom: 20px;
-}
-
-.titre-head-theo {
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-}
-
-.profile-body-theo {
+body {
+    font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-}
-
-a-theo {
-    color: #3498db;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #000;
     text-decoration: none;
-}
-
-a-theo:hover {
+  }
+  
+  a:hover {
+    color: #000;
     text-decoration: underline;
-}
-
-
-
-
-
-
+  }
+  
+  .theo-main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px;
+    background-color: #f0f0f0;
+  }
+  
+  .theo-h1 {
+    text-align: center;
+  }
+  
+  .theo-h2 {
+    margin-top: 20px;
+  }
+  
+  .theo-ul {
+    margin-bottom: 20px;
+  }
+  
+  .theo-ul li {
+    margin-bottom: 10px;
+  }
+  
+  .theo-footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+  }
+  
 
 
 
