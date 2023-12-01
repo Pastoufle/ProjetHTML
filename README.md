@@ -34,3 +34,19 @@ Tibo</br>
 3. mettre la commande ```git config core.hooksPath Hook```
 4. Cela permettra d'activer les hook présent dans le dossier Hook du projet
 
+# Projet
+
+**Awesome Rails**
+*Awesome Rails est une liste où il y à des ressources considérées comme exceptionnelles ou remarquables dans le contexte de Ruby on Rails.*
+
+**Gamezone**
+*Est un regroupement de petit jeu dévellopés par des gens passionés du jeu vidéo.*
+
+**Curse forge**
+*C'est une application qui permet de partager des mods du jeu minecraft.*
+
+**Domain Name System (DNS)**
+*Est un protocole très utile sur Internet qui sert à lier des noms de domaines et ip*
+
+**WinDirStat**
+*un outil pour une utilisation du disque de manière efficace.*
