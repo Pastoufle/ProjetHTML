@@ -1,10 +1,15 @@
 # ProjetHTML
 les contributeur et BG:
 Théo
+<img src="photo/thébas.png" height="140" width="125" align="right" ></br>
 Romain
+<img src="photo/ropied.png" height="140" width="125" align="right" ></br>
 Alex
+<img src="photo/alex.png" height="140" width="125" align="right" ></br>
 Tom
+<img src="photo/tomanger.png" height="140" width="125" align="right" ></br>
 Tibo
+<img src="photo/thimauche.png" height="140" width="125" align="right" ></br>
 
 # REGLE CSS A RESPECTER
 **Mettre son prenom au début de chaque balise**
@@ -25,3 +30,4 @@ Tibo
 2. ouvrir git bash 
 3. mettre la commande ```git config core.hooksPath Hook```
 4. Cela permettra d'activer les hook présent dans le dossier Hook du projet
+
