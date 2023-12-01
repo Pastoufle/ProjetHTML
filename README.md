@@ -1,17 +1,20 @@
 # ProjetHTML
-les contributeur et BG:
+les contributeur et BG:</br>
 Théo
 <img src="photo/thébas.png" height="140" width="125" align="right" ></br>
-Romain
+Romain</br>
 <img src="photo/ropied.png" height="140" width="125" align="right" ></br>
-Alex
+Alex</br>
 <img src="photo/alex.png" height="140" width="125" align="right" ></br>
-Tom
+Tom</br>
 <img src="photo/tomanger.png" height="140" width="125" align="right" ></br>
-Tibo
+Tibo</br>
 <img src="photo/thimauche.png" height="140" width="125" align="right" ></br>
+</br>
+</br>
 
 # REGLE CSS A RESPECTER
+
 **Mettre son prenom au début de chaque balise**
 
 **Faire suivre le prénom par le thème de la balise(titre, paragraphe,...)**
